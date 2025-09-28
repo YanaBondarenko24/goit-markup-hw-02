@@ -126,6 +126,12 @@ address {
 }
 .principles-item {
 }
+.principles-title {
+}
+.principles-text {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
 
 .team {
 }

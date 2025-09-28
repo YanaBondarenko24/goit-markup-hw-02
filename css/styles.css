@@ -134,23 +134,31 @@ address {
 }
 
 .team {
+  background-color: #f4f4fd;
 }
 .visually-hidden {
 }
 .team-title {
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
-  text-transform: capitalize;
 }
 .team-list {
-  background-color: #ffffff;
 }
 .team-list-item {
 }
 .team-list-item-icon {
+  background-color: #fff;
+}
+.team-list-title {
+}
+.team-list-text {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: center;
 }
 
 /* #endregion */

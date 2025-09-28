@@ -2,7 +2,7 @@
 body {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
-  background-color: #fcfcfc;
+  background-color: #ffffff;
   color: #434455;
 }
 ul,
@@ -25,13 +25,6 @@ address {
 /* #region Common*/
 .visually-hidden,
 .read-only {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  bottom: 0;
-  padding: 0;
-
   white-space: nowrap;
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
@@ -77,7 +70,7 @@ address {
 
 .menu-items-link:hover,
 .menu-items-link :focus {
-  color: #4d5ae5;
+  color: #404bbf;
 }
 .menu-items-link:active {
   text-decoration: underline;
@@ -91,7 +84,7 @@ address {
 }
 .header-contacts-link:hover,
 .header-contacts--link:focus {
-  color: #4d5ae5;
+  color: #404bbf;
 }
 
 /* #endregion */
@@ -108,11 +101,6 @@ address {
   color: #fff;
 }
 .hero-btn {
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-  flex-direction: row;
-  gap: 10px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -122,12 +110,19 @@ address {
 }
 .hero-btn:hover,
 :focus {
+  background-color: #404bbf;
 }
 
 /* #endregion */
 
 /* #region Main section*/
-
+.title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
 .principles {
 }
 .visually-hidden {
@@ -139,6 +134,9 @@ address {
 .principles-title {
 }
 .principles-text {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
 
 .team {
@@ -147,8 +145,14 @@ address {
 .visually-hidden {
 }
 .team-title {
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
 }
 .team-list {
+  background-color: #ffffff;
 }
 .team-list-item {
 }
@@ -156,6 +160,7 @@ address {
 }
 .team-list-title {
 }
+
 .team-text {
 }
 
@@ -180,6 +185,8 @@ address {
 /* #region Footer section*/
 .footer {
   background-color: #2e2f42;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 
   color: #f4f4fd;
 }

@@ -48,6 +48,8 @@ address {
 /* #endregion */
 
 /* #region Header section*/
+#studio {
+}
 .header-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -57,6 +59,7 @@ address {
   text-transform: uppercase;
   color: #4d5ae5;
 }
+
 .header-logo-accent {
   color: #2e2f42;
 }
@@ -146,12 +149,11 @@ address {
   color: #2e2f42;
 }
 .team-list {
-  background-color: #ffffff;
 }
 .team-list-item {
-}
-.team-list-items-icon {
   background-color: #fff;
+}
+.team-list-item-icon {
 }
 .team-list-title {
   font-weight: 500;
@@ -178,14 +180,33 @@ address {
 .visually-hidden {
 }
 .portfolio-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
 }
 .portfolio-list {
 }
-.portfolio-list-items {
+.portfolio-list-item {
+  background-color: #fff;
 }
-.portfolio-list-items-icon {
+.portfolio-list-item-icon {
 }
-.portfolio-text {
+.portfolio-list-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.portfolio-list-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
 
 /* #endregion */

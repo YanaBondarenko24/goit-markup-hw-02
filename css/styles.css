@@ -30,8 +30,20 @@ address {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-
-
+.section-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+}
+.section-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
 /* #endregion */
 
@@ -105,13 +117,7 @@ address {
 /* #endregion */
 
 /* #region Main section*/
-.title {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-}
+
 .principles {
 }
 .visually-hidden {
@@ -120,21 +126,8 @@ address {
 }
 .principles-item {
 }
-.principles-title {
-}
-.principles-text {
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
-}
 
 .team {
-  background: #f4f4fd;
-  font-size: 36px;
-  line-height: 1.11;
-  letter-spacing: 0.02em;
-  text-align: center;
-  color: #2e2f42;
 }
 .visually-hidden {
 }
@@ -153,16 +146,6 @@ address {
 }
 .team-list-item-icon {
 }
-.title {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-}
-
-.text {
-}
 
 .portfolio {
 }
@@ -176,10 +159,7 @@ address {
 }
 .portfolio-list-items-icon {
 }
-.portfolio-list-title {
-}
-.portfolio-text {
-}
+
 /* #endregion */
 
 /* #region Footer section*/

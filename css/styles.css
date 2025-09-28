@@ -48,8 +48,6 @@ address {
 /* #endregion */
 
 /* #region Header section*/
-#studio {
-}
 .header-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -72,8 +70,10 @@ address {
   color: #2e2f42;
 }
 
-.menu-items-link:hover,
-.menu-items-link :focus {
+.menu-items-link:hover {
+  color: #404bbf;
+}
+.menu-items-link:focus {
   color: #404bbf;
 }
 .menu-items-link:active {
@@ -86,8 +86,10 @@ address {
   letter-spacing: 0.02em;
   color: #434455;
 }
-.header-contacts-link:hover,
-.header-contacts--link:focus {
+.header-contacts-link:hover {
+  color: #404bbf;
+}
+.header-contacts-link:focus {
   color: #404bbf;
 }
 
@@ -137,6 +139,7 @@ address {
 }
 
 .team {
+  background-color: #f4f4fd;
 }
 .visually-hidden {
 }

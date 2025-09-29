@@ -23,6 +23,13 @@ address {
 /* #endregion */
 
 /* #region Common*/
+.visually-hidden,
+.read-only {
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 
 .section-title {
   font-weight: 500;
@@ -39,6 +46,7 @@ address {
   letter-spacing: 0.02em;
   color: #434455;
 }
+
 /* #endregion */
 
 /* #region Header section*/
